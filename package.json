@@ -1,0 +1,9 @@
+{
+  "name": "tough-cookie-scalajs",
+  "version": "2.3.2",
+  "private": true,
+  "dependencies": {
+    "source-map": "^0.5.6",
+    "tough-cookie": "^2.3.2"
+  }
+}
