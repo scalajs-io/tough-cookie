@@ -1,21 +1,23 @@
-Tough-cookie API for Scala.js
+ToughCookie API for Scala.js
 ================================
-This is a Scala.js type-safe binding for [Tough-cookie](https://www.npmjs.com/package/tough-cookie)
+[tough-cookie](https://www.npmjs.com/package/tough-cookie) - RFC6265 Cookies and Cookie Jar for node.js
+
+#### Description
 
 RFC6265 Cookies and Cookie Jar for node.js
 
-#### Build Dependencies
+### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/ldaniels528/scalajs.io)
+* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
-#### Build/publish the SDK locally
+### Build/publish the SDK locally
 
 ```bash
  $ sbt clean publish-local
 ```
 
-#### Running the tests
+### Running the tests
 
 Before running the tests the first time, you must ensure the npm packages are installed:
 
@@ -29,7 +31,7 @@ Then you can run the tests:
 $ sbt test
 ```
 
-#### Examples
+### Examples
 
 ```scala
 import io.scalajs.JSON
@@ -40,9 +42,9 @@ println(s"cookie: ${JSON.stringify(cookie)}")
 //=> cookie: {"key":"key1","value":"value1","creation":"2017-02-08T06:25:57.717Z"} 
 ```
 
-#### Artifacts and Resolvers
+### Artifacts and Resolvers
 
-To add the Moment binding to your project, add the following to your build.sbt:  
+To add the `ToughCookie` binding to your project, add the following to your build.sbt:  
 
 ```sbt
 libraryDependencies += "io.scalajs.npm" %%% "tough-cookie" % "2.3.2"
