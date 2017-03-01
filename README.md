@@ -8,7 +8,6 @@ RFC6265 Cookies and Cookie Jar for node.js
 
 ### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
@@ -47,7 +46,7 @@ println(s"cookie: ${JSON.stringify(cookie)}")
 To add the `ToughCookie` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "tough-cookie" % "2.3.2"
+libraryDependencies += "io.scalajs.npm" %%% "tough-cookie" % "2.3.2-2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
