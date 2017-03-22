@@ -1,6 +1,6 @@
 {
   "name": "tough-cookie-sjs",
-  "version": "2.3.2-3",
+  "version": "2.3.2-4",
   "private": true,
   "dependencies": {
     "source-map": "^0.5.6",

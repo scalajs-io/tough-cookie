@@ -46,7 +46,7 @@ println(s"cookie: ${JSON.stringify(cookie)}")
 To add the `ToughCookie` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "tough-cookie" % "2.3.2-3"
+libraryDependencies += "io.scalajs.npm" %%% "tough-cookie" % "2.3.2-4"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
