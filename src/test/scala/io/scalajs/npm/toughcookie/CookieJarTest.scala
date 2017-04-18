@@ -12,7 +12,7 @@ class CookieJarTest extends FunSpec {
   describe("CookieJar") {
 
     it("should create cookie jars") {
-      val url = "http://scalajs.io"
+      val url = "http://scalajs-io"
       val cookieJar = new CookieJar()
       cookieJar.setCookie(Cookie.parse("key1=value1"), url, (err, cookie) => info(s"cookie1: ${JSON.stringify(cookie)}"))
       cookieJar.setCookie(Cookie.parse("key2=value2"), url, (err, cookie) => info(s"cookie2: ${JSON.stringify(cookie)}"))
